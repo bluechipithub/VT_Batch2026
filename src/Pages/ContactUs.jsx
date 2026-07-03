@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const ContactUS = () => {
   return (
     <div className='text-2xl text-center'>
-      Home
+      Contact us
     </div>
   )
 }
 
-export default Home
+export default ContactUS
