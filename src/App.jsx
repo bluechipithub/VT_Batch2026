@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import OurStory from './Pages/OurStory'
 import Header from './Component/Header'
 import ContactUs from './Pages/ContactUs'
+import ErrorPage from './Pages/ErrorPage'
 import { Routes,Route,
  } from 'react-router-dom'
 
@@ -19,6 +20,8 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/Our-Story' element={<OurStory/>}/>
           <Route path='/Contact-Us' element={<ContactUs/>}/>
+          <Route path='*' element={<ErrorPage/>}/>
+
 
         </Routes>     
       </main>
